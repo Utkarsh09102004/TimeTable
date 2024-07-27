@@ -19,11 +19,12 @@ const ScheduleTable = ({ scheduleData }) => {
 
   const renderCell = (day, time) => {
     const entry = scheduleData[day] && scheduleData[day][time];
+    const value = entry ? entry.join(', ') : '';
     return (
-      <td>
+      <td key={`${day}-${time}`}>
         <input 
           type="text" 
-          defaultValue={entry ? entry.join(', ') : ''} 
+          defaultValue={value}
         />
       </td>
     );
@@ -45,11 +46,11 @@ const ScheduleTable = ({ scheduleData }) => {
         {timeSlots.map((time) => (
           <tr key={time}>
             <th className="time">{time}</th>
-            <td>{renderCell('Monday', time)}</td>
-            <td>{renderCell('Tuesday', time)}</td>
-            <td>{renderCell('Wednesday', time)}</td>
-            <td>{renderCell('Thursday', time)}</td>
-            <td>{renderCell('Friday', time)}</td>
+            {renderCell('Monday', time)}
+            {renderCell('Tuesday', time)}
+            {renderCell('Wednesday', time)}
+            {renderCell('Thursday', time)}
+            {renderCell('Friday', time)}
           </tr>
         ))}
       </tbody>
