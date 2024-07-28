@@ -1,4 +1,4 @@
-.home-container {
+/* .home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,10 +49,10 @@
   .submit-button:hover {
     background-color: #0056b3;
   }
-  
+   */
 
   /* General container styling */
-.schedule-container {
+/* .schedule-container {
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
@@ -77,9 +77,9 @@
   .schedule-container button:hover {
     background-color: #0056b3;
   }
-  
+   */
   /* Table styling */
-  table.all {
+  /* table.all {
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
@@ -108,7 +108,7 @@
   }
   
   td {
-    padding: 0; /* Remove padding to allow input to take full width */
+    padding: 0; Remove padding to allow input to take full width
   }
   
   td input[type="text"] {
@@ -118,7 +118,7 @@
     border: none;
     box-sizing: border-box;
     font-size: 14px;
-    outline: none; /* Remove outline to prevent double borders */
+    outline: none; Remove outline to prevent double borders
   }
   
   tbody tr:nth-child(odd) {
@@ -128,4 +128,4 @@
   tbody tr:nth-child(even) {
     background-color: #ffffff;
   }
-  
+   */
