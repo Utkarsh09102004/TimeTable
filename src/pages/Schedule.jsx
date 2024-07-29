@@ -25,11 +25,14 @@ function Schedule() {
   }
 
   return (
+    <div>
+    <nav className="acm-title"> <div class="title-text">Time Table</div> <img src="https://acm-thapar.github.io/img/logo.png" alt="Logo" width="600" height="300"></img></nav>
     <div className="schedule-container">
-      <button onClick={downloadTableAsImage}>Download as PNG</button>
+      <button className="pict" onClick={downloadTableAsImage}>Download as PNG</button>
       <article className ="table" ref={tableRef}>
         <ScheduleTable scheduleData={scheduleData} />
       </article>
+    </div>
     </div>
   );
 }

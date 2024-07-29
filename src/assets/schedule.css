@@ -151,3 +151,93 @@ table {
 	/* Practical */
 }
 
+.days {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+text-align: left;
+color: #111111;
+
+}
+
+.time-specific {
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: center;
+	color: #111111;
+	
+	}
+.time
+{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+color: #CFD2D7;
+
+}
+
+.pict
+{
+
+justify-content: center;
+align-items: center;
+padding: 15px;
+gap: 10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+color: #15A6DD;
+
+background: #FFFFFF;
+border: 2px solid #15A6DD;
+border-radius: 10px;
+
+margin:0 auto;
+display:block;
+margin-bottom: 30px;
+
+}
+
+.acm-title
+{
+	display: flex;
+	justify-content: space-between; /* Distribute space between items */
+	align-items: center;
+	background-color: white; /* Set the background color to white */
+	padding: 1rem;
+	height: 200px
+}
+.acm-title img {
+	height: 200px;
+	width: 300px;
+}
+	
+.acm-title .title-text {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 59px;
+	color: #111111;
+}
+
+/* Timetable */
+
+
+
+

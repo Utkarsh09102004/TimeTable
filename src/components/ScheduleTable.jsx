@@ -65,7 +65,7 @@ const ScheduleTable = ({ scheduleData }) => {
     <table className="all" align="center">
       <thead>
         <tr>
-          <th className="days t">Time</th>
+          <th className="time-specific">Time</th>
           <th className="days">Monday</th>
           <th className="days">Tuesday</th>
           <th className="days">Wednesday</th>
