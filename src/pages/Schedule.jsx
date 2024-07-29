@@ -27,7 +27,7 @@ function Schedule() {
   return (
     <div className="schedule-container">
       <button onClick={downloadTableAsImage}>Download as PNG</button>
-      <article ref={tableRef}>
+      <article className ="table" ref={tableRef}>
         <ScheduleTable scheduleData={scheduleData} />
       </article>
     </div>

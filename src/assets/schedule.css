@@ -1,38 +1,153 @@
 /* Lecture */
 
 /* Auto layout */
-.schedule-input-3 {
-/* Lecture */
+.schedule-input-0 {
+  /* design for type of lecture */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/* padding: 5px 10px; */
+	gap: 10px;
+	border-radius: 5px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 14px;
+	width: 53px;
+	color: #FFFFFF;
+	padding-block: 3px;
+	padding-inline: 5px;
+  position: absolute;
+  left: 12px;
+top: 88px;
+height:20px;
+}
 
-/* Auto layout */
+
+.schedule-input-2 {
+  /* LT302 */
+
+/* position: absolute; */
+/* width: 46px; */
+width:100%;
+/* height: 22px; */
+left: 12px;
+top: 38px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+
+color: #999999;
+
+
+}
+
+
+
+.schedule-input-3 {
+  
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-align-content: center;
-padding: 3px 5px;
 gap: 10px;
 
-position: absolute;
-width: 61px;
-height: 19px;
-left: 12px;
-top: 88px;
-
-background: #73D418;
+background: #FF5E70;
 border-radius: 5px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+/* line-height: 14px ; */
+width: 57px;
+color: #FFFFFF;
+padding-block: 3px;
+padding-inline: 5px;
+position: absolute;
+left: 78px;
+top: 88px;
+height: 20px;
 }
+
+.schedule-input-1 {
+  /* Numerical Linear Algebra */
+/* overflow-x:scroll; */
+/* position: absolute; */
+width: 100%;
+/* height: 22px; */
+left: 12px;
+top: 12px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+/* line-height: 22px; */
+/* identical to box height */
+
+color: #15A6DD;
+
+
+
+}
+
+
+table {
+  width:90%;
+  border-spacing:8px;
+  table-layout:fixed;
+}
+
 
 /* styles.css */
-.reset-input {
-  border: none;
-  padding: 0;
-  margin: 0;
-  background: none;
-  box-shadow: none;
-  outline: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
+
+.cell {
+  width:15%;
 }
+
+.cell-with-value {
+	/* width: 80px; */
+	height: 120px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+  position:relative;
+  padding: 10px;
+  vertical-align: text-top;
+  margin:5px;
+
+}
+
+.schedule-input {
+	border: none;
+	outline: none;
+  resize: none;
+  overflow: hidden; 
+  white-space: pre-wrap;
+
+}
+
+.green {
+	background-color: #73D418;
+	/* Lecture */
+}
+
+.purple {
+	background-color: #9747FF;
+	/* Tutorial */
+}
+
+.yellow {
+	background-color: #FFBA4A;
+	/* Practical */
+}
+

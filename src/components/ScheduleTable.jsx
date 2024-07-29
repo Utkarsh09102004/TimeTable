@@ -16,34 +16,50 @@ const timeSlots = [
 ];
 
 const ScheduleTable = ({ scheduleData }) => {
-
   const renderCell = (day, time) => {
     // Retrieve the entry for the given day and time
     const entry = scheduleData[day] && scheduleData[day][time];
     console.log(`Rendering cell for ${day}, ${time}:`, entry); // Debugging line
 
-    // If there's an entry, map it to input fields
+    // Determine the cell class name
+    const cellClassName = entry ? "cell cell-with-value" : "cell cell-no-value";
+
+    // Function to get the color class name based on the value
+    const getColorName = (value) => {
+        switch (value) {
+            case "Lecture":
+                return "green";
+            case "Tutorial":
+                return "purple";
+            case "Practical":
+                return "yellow";
+            default:
+                return "";
+        }
+    };
+
     return (
-      <td key={`${day}-${time}`}>
-        {entry ? entry.map((value, index) => (
-          <input 
+       <td key={`${day}-${time}`} className={cellClassName}>
+    {entry ? entry.slice().reverse().map((value, index) => (
+        <textarea
             key={`${day}-${time}-${index}`} 
-            type="text" 
             defaultValue={value}
-            className={`schedule-input-${index}`}
-          />
-        )) : (
-          // Fallback for cases where there's no entry
-          <>
-            <input type="text" defaultValue="" className="schedule-input" />
-            <input type="text" defaultValue="" className="schedule-input" />
-            <input type="text" defaultValue="" className="schedule-input" />
-            <input type="text" defaultValue="" className="schedule-input" />
-          </>
-        )}
-      </td>
+            className={`schedule-input schedule-input-${index} ${index === 0 ? getColorName(value) : ""}`}
+        />
+    )) : (
+        // Fallback for cases where there's no entry
+        <>
+            <input type="text" defaultValue="" className="schedule-input schedule-input-0" />
+            <input type="text" defaultValue="" className="schedule-input schedule-input-1" />
+            <input type="text" defaultValue="" className="schedule-input schedule-input-2" />
+            <input type="text" defaultValue="" className="schedule-input schedule-input-3" />
+        </>
+    )}
+</td>
+
     );
-  };
+};
+
 
   return (
     <table className="all" align="center">
