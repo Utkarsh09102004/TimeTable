@@ -19,7 +19,7 @@ const ScheduleTable = ({ scheduleData }) => {
 
   const renderCell = (day, time) => {
     // Retrieve the entry for the given day and time
-    const entry = scheduleData["1A1"] && scheduleData["1A1"][day] && scheduleData["1A1"][day][time];
+    const entry = scheduleData[day] && scheduleData[day][time];
     console.log(`Rendering cell for ${day}, ${time}:`, entry); // Debugging line
 
     // If there's an entry, map it to input fields
