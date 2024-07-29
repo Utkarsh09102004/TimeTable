@@ -18,14 +18,29 @@ const timeSlots = [
 const ScheduleTable = ({ scheduleData }) => {
 
   const renderCell = (day, time) => {
-    const entry = scheduleData[day] && scheduleData[day][time];
-    const value = entry ? entry.join(', ') : '';
+    // Retrieve the entry for the given day and time
+    const entry = scheduleData["1A1"] && scheduleData["1A1"][day] && scheduleData["1A1"][day][time];
+    console.log(`Rendering cell for ${day}, ${time}:`, entry); // Debugging line
+
+    // If there's an entry, map it to input fields
     return (
       <td key={`${day}-${time}`}>
-        <input 
-          type="text" 
-          defaultValue={value}
-        />
+        {entry ? entry.map((value, index) => (
+          <input 
+            key={`${day}-${time}-${index}`} 
+            type="text" 
+            defaultValue={value}
+            className={`schedule-input-${index}`}
+          />
+        )) : (
+          // Fallback for cases where there's no entry
+          <>
+            <input type="text" defaultValue="" className="schedule-input" />
+            <input type="text" defaultValue="" className="schedule-input" />
+            <input type="text" defaultValue="" className="schedule-input" />
+            <input type="text" defaultValue="" className="schedule-input" />
+          </>
+        )}
       </td>
     );
   };
