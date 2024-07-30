@@ -92,6 +92,10 @@
     width: 15rem;
 }
 
+.input-box-container{
+    padding-bottom: 1.5rem;
+}
+
 .content .form-container button {
     height: 40px;
     background-color: white;
@@ -152,18 +156,20 @@
 
 .contributers {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 180px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .contributer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.2rem;
-    margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.contributer > * {
+    flex: 1 1 calc(50% - 10px); 
+    box-sizing: border-box; 
+  }
 
 .contributer .photo img {
     background-color: grey;
@@ -175,6 +181,7 @@
 .contributer .name {
     font-size: 14px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .contributer .socials {
@@ -189,17 +196,13 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .navbar {
-        height: 6rem;
+        height: 4rem;
         justify-content: center;
     }
 
     .logo {
         height: 4rem;
         padding: 0rem 1rem;
-    }
-
-    .container{
-        padding-top: 4rem;
     }
 
     .cont2 {
@@ -230,6 +233,7 @@
     .contributers {
         flex-direction: column;
         gap: 2rem;
+        flex: 1 1 100%;
     }
 
     .contributer .photo img {
@@ -249,12 +253,13 @@
 
 @media (max-width: 480px) {
     .navbar {
-        height: 6rem; /* Reduce navbar height */
+        height: 5rem; /* Reduce navbar height */
     }
 
-    .container{
-        padding-top: 5rem;
-    }
+
+    .contributer > * {
+        flex: 1 1 calc(50% - 10px); 
+      }
 
     .logo {
         height: 3rem;

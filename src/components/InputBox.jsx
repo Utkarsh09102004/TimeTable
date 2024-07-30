@@ -10,15 +10,11 @@ const InputBox = ({ onChange }) => {
   }));
 
 
- 
-
-
-
   return (
     <Select
       options={formattedOptions}
       onChange={onChange}
-      placeholder="Enter Subgroup"
+      placeholder="Subgroup"
       // styles={customStyles}
     />
   );
