@@ -47,8 +47,6 @@
     background-position: top;
     background-size: cover;
     overflow: hidden;
-    padding-top: 2rem;
-    
 }
 
 .content {
@@ -191,7 +189,7 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .navbar {
-        height: 5rem;
+        height: 6rem;
         justify-content: center;
     }
 
@@ -199,9 +197,9 @@
         height: 4rem;
         padding: 0rem 1rem;
     }
-    
+
     .container{
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 
     .cont2 {
@@ -251,13 +249,11 @@
 
 @media (max-width: 480px) {
     .navbar {
-        height: 2rem; /* Reduce navbar height */
-        padding-bottom: 4rem;
-        margin-bottom: 10px;
+        height: 6rem; /* Reduce navbar height */
     }
 
     .container{
-        padding-top: 2rem;
+        padding-top: 5rem;
     }
 
     .logo {
