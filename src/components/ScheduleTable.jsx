@@ -13,7 +13,8 @@ const timeSlots = [
   "02:40 PM",
   "03:30 PM",
   "04:20 PM",
-  "05:10 PM"
+  "05:10 PM",
+  "06:00 PM"
 ];
 
 const ScheduleTable = ({ scheduleData }) => {

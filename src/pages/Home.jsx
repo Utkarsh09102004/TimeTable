@@ -6,6 +6,12 @@ import result from '@/assets/result.json';
 import InputBox from '../components/InputBox';
 import Contributer from '../components/Contributers';
 import GithubStats from '../components/GithubStats';
+import instagramLogo from '@/assets/logos/instagram.svg';
+import linkedInLogo from '@/assets/logos/linkedin.svg';
+import githubLogo from '@/assets/logos/github.svg';
+
+
+
 
 function Home() {
   const [keys, setKeys] = useState([]);
@@ -40,22 +46,13 @@ function Home() {
         </div>
         <ul className="cont2">
           <li>
-            <img 
-              src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" 
-              className="social" 
-            />
+          <img src={linkedInLogo} className="social" alt="LinkedIn Logo" />
           </li>
           <li>
-            <img 
-              src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" 
-              className="social" 
-            />
+          <img src={instagramLogo} className="social" alt="Instagram Logo" />
           </li>
           <li>
-            <img 
-              src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" 
-              className="social" 
-            />
+          <img src={githubLogo} className="social" alt="Github Logo" />
           </li>
         </ul>
       </div>
@@ -90,9 +87,9 @@ function Home() {
             <button className="submit-button" type="submit">Submit</button>
             
           </form>
-          <div className="github-stats">
+          {/* <div className="github-stats">
             <GithubStats/>
-          </div>
+          </div> */}
           <span className='contributers-heading'>Contributers</span>
           <div className="contributers">
             <div className="contributer">
