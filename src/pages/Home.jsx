@@ -10,6 +10,16 @@ import instagramLogo from '@/assets/logos/instagram.svg';
 import linkedInLogo from '@/assets/logos/linkedin.svg';
 import githubLogo from '@/assets/logos/github.svg';
 
+import utkarshImage from '@/assets/team/utkarsh.jpg';
+import aneeshImage from '@/assets/team/aneesh.jpg';
+import namanImage from '@/assets/team/naman.jpg';
+import matangiImage from '@/assets/team/matangi.jpg';
+import gaurangImage from '@/assets/team/gaurang.jpg';
+import vanshImage from '@/assets/team/vansh.jpg';
+import armaanImage from '@/assets/team/armaan.jpg';
+import parthImage from '@/assets/team/parth.jpg';
+
+
 
 
 
@@ -90,33 +100,67 @@ function Home() {
           {/* <div className="github-stats">
             <GithubStats/>
           </div> */}
-          <span className='contributers-heading'>Contributers</span>
-          <div className="contributers">
-            <div className="contributer">
-              <Contributer
-                name="John Doe"
-                linkedinUrl="https://www.linkedin.com/in/johndoe"
-                githubUrl="https://github.com/johndoe"
-              />
-              <Contributer
-                name="Jane Smith"
-                linkedinUrl="https://www.linkedin.com/in/janesmith"
-                githubUrl="https://github.com/janesmith"
-              />
-              <Contributer
-                name="Alice Johnson"
-                linkedinUrl="https://www.linkedin.com/in/alicejohnson"
-                githubUrl="https://github.com/alicejohnson"
-              />
-              <Contributer
-                name="Bob Brown"
-                linkedinUrl="https://www.linkedin.com/in/bobbrown"
-                githubUrl="https://github.com/bobbrown"
-              /> 
-            </div>
+          <span className='contributers-heading'>Contributors</span>
           </div>
+     
           
-        </div>
+          <div className="contributers">
+            {/* <div className="contributer"> */}
+              <Contributer
+                img_url={utkarshImage}
+                name="Utkarsh Agarwal"
+                linkedinUrl="https://www.linkedin.com/in/utkarsh-agarwal-054545211/ "
+                githubUrl="https://github.com/Utkarsh09102004"
+              />
+              <Contributer
+              img_url={aneeshImage}
+                name="Aneesh Grover"
+                linkedinUrl="https://www.linkedin.com/in/aneesh-grover/"
+                githubUrl="https://github.com/Aneesh-382005"
+              />
+              <Contributer
+              img_url={namanImage}
+                name="Naman Kundra"
+                linkedinUrl="https://www.linkedin.com/in/naman-kundra-850209281/"
+                githubUrl="https://github.com/naman777"
+              />
+              <Contributer
+                img_url={matangiImage}
+                name="Matangi Sharma"
+                linkedinUrl="https://www.linkedin.com/in/matangi-sharma-4b1706283/"
+                githubUrl="https://github.com/matangi05"
+              /> 
+              <Contributer
+                img_url={armaanImage}
+                name="Armaan Jagirdaar"
+                linkedinUrl="https://www.linkedin.com/in/armaan-jagirdar-183b47285/"
+                githubUrl="https://github.com/Armaan457"
+              /> 
+              <Contributer
+                img_url={gaurangImage}
+                name="Gaurang Garg"
+                linkedinUrl="https://www.linkedin.com/in/gaurang-garg-5441382a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                githubUrl="https://github.com/Ultramech"
+              /> 
+              <Contributer
+                img_url={vanshImage}
+                name="Vansh Gupta"
+                linkedinUrl="https://www.linkedin.com/in/vansh-gupta-4269001b5/"
+                githubUrl=" https://github.com/Vansh-7"
+              /> 
+               <Contributer
+                img_url={parthImage}
+                name="Parth Kaushal"
+                linkedinUrl="https://www.linkedin.com/in/parth-kaushal-39ab25286/"
+                githubUrl="https://github.com/parthkaushal18"
+              /> 
+              
+
+            {/* </div> */}
+          </div>
+       
+          
+        
       </div>
       
     </div>
