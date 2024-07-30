@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Creepster&family=Crete+Round&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin:0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
 }
 
-.navbar{
+.navbar {
     width: 100%;
     height: 6rem;
     background: #FFF;
@@ -18,55 +18,56 @@
     position: absolute;
 }
 
-
-.logo{
+.logo {
     height: 5rem;
     padding: 0rem 3rem;
 }
 
-.cont2{
+.cont1 {
     display: flex;
-    list-style: none;
-    gap:2rem;
+    align-items: center;
     padding: 0rem 3rem;
 }
 
-.cont2 .social{
-    height: 3.3rem;
-    width: 3.3rem;
-    
+.cont2 {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 0rem 3rem;
 }
 
-/* .background-svg{
-    width: 100%;
-} */
+.cont2 .social {
+    height: 3.3rem;
+    width: 3.3rem;
+}
 
-.container{
+.container {
     width: 100vw;
-    /* height: 100vh; */
     background-image: url("bg-line.png");
     background-position: top;
     background-size: cover;
     overflow: hidden;
+    padding-top: 2rem;
+    
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10.2vw;
 }
 
-.content .tt-header{
+.content .tt-header {
     font-size: 3em;
     font-weight: 500;
 }
 
-.content .tt-subtext{
+.content .tt-subtext {
     font-size: 1.4em;
 }
 
-.content .form-container{
+.content .form-container {
     width: 40rem;
     background-color: #15a6dd;
     padding: 2.4rem 6rem;
@@ -74,26 +75,26 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
-.content .form-container .text{
+.content .form-container .text {
     display: flex;
     align-items: center;
     color: white;
     font-size: 20px;
 }
 
-.content .form-container .text .bold{
+.content .form-container .text .bold {
     font-weight: 600;
 }
 
-.content .form-container .input-box-container{
+.content .form-container .input-box-container {
     color: black;
     width: 15rem;
 }
 
-.content .form-container button{
+.content .form-container button {
     height: 40px;
     background-color: white;
     border: none;
@@ -102,11 +103,11 @@
     font-weight: 500;
 }
 
-.content .form-container button:hover{
+.content .form-container button:hover {
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.github-stats{
+.github-stats {
     width: 40rem;
     display: flex;
     align-items: center;
@@ -114,17 +115,17 @@
     justify-content: space-between;
 }
 
-.github-stats .stat{
+.github-stats .stat {
     display: flex;
     justify-content: space-between;
     color: white;
     gap: 8px;
 }
 
-.issue-name{
+.issue-name {
     display: inline-flex;
     height: 2.2rem;
-    padding:0.5rem 0.7rem;
+    padding: 0.5rem 0.7rem;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
@@ -134,10 +135,10 @@
     background: #282828;
 }
 
-.issue-stats{
+.issue-stats {
     display: inline-flex;
     height: 2.2rem;
-    padding:0.5rem 0.7rem;
+    padding: 0.5rem 0.7rem;
     justify-content: center;
     align-items: center;
     border-radius: 0.375rem;
@@ -145,44 +146,175 @@
     background: #282828;
 }
 
-.contributers-heading{
+.contributers-heading {
     padding: 2rem;
     font-size: larger;
     font-weight: 600;
 }
 
-.contributers{
+.contributers {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 180px;
 }
 
-.contributer{
+.contributer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:0.2rem;
-    margin-bottom:40px;
+    gap: 0.2rem;
+    margin-bottom: 40px;
 }
 
-.contributer .photo img{
+.contributer .photo img {
     background-color: grey;
     height: 80px;
     width: 80px;
     border-radius: 50px;
 }
 
-.contributer .name{
+.contributer .name {
     font-size: 14px;
     font-weight: 600;
 }
 
-.contributer .socials{
+.contributer .socials {
     display: flex;
 }
 
-.contributer .socials img{
+.contributer .socials img {
     height: 32px;
     width: 32px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        height: 5rem;
+        justify-content: center;
+    }
+
+    .logo {
+        height: 4rem;
+        padding: 0rem 1rem;
+    }
+    
+    .container{
+        padding-top: 2rem;
+    }
+
+    .cont2 {
+        display: none; /* Hide LinkedIn icons */
+    }
+
+    .content .tt-header {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .content .tt-subtext {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .content .form-container {
+        width: 90%;
+        padding: 1.5rem 2rem;
+    }
+
+    .github-stats {
+        width: 90%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contributers {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contributer .photo img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .contributer .name {
+        font-size: 12px;
+    }
+
+    .contributer .socials img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 2rem; /* Reduce navbar height */
+        padding-bottom: 4rem;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        padding-top: 2rem;
+    }
+
+    .logo {
+        height: 3rem;
+        padding: 0rem 1rem;
+    }
+
+    .cont1 {
+        display: flex;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+
+    .cont2 {
+        display: none; /* Hide LinkedIn icons */
+    }
+
+    .content {
+        padding-top: 12rem; /* Adjust padding to move content down */
+    }
+
+    .content .tt-header {
+        font-size: 1.5em;
+    }
+
+    .content .tt-subtext {
+        font-size: 1em;
+    }
+
+    .content .form-container {
+        padding: 1rem 1.5rem;
+    }
+
+    .github-stats {
+        width: 100%;
+    }
+
+    .issue-name,
+    .issue-stats {
+        font-size: 0.8rem;
+    }
+
+    .contributers {
+        gap: 1rem;
+    }
+
+    .contributer .photo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contributer .name {
+        font-size: 10px;
+    }
+
+    .contributer .socials img {
+        height: 20px;
+        width: 20px;
+    }
 }
