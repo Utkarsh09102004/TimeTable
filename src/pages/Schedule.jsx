@@ -4,8 +4,11 @@ import ScheduleTable from '@/components/ScheduleTable'; // Adjust the import pat
 import useScheduleData from '@/hooks/useScheduleData'; // Adjust the import path as needed
 import '@/assets/index.css';
 import '@/assets/schedule.css';
+import useViewPortMetaTag from '@/hooks/useViewPortMetaTag'
+
 
 function Schedule() {
+  useViewPortMetaTag(1200);
   const scheduleData = useScheduleData();
   const tableRef = useRef(null);
 
