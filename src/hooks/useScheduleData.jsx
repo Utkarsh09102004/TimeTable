@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import result from '@/assets/result.json';
+import result from '@/assets/result(parsed).json';
 
 const useScheduleData = () => {
   const { sub } = useParams();
