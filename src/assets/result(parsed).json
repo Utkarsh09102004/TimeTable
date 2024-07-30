@@ -24913,13 +24913,13 @@
     },
     "2CO5": {
         "Monday": {
-            "9:40: AM": [
+            "09:40 AM": [
                 "UMA021L",
                 "LT101",
                 "UMA021",
                 "Lecture"
             ],
-            "10:30: AM": [
+            "10:30 AM": [
                 "UTA018L",
                 "LT101",
                 "OBJECT ORIENTED PROGRAMMING",
@@ -24937,7 +24937,7 @@
                 "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
             ],
-            "8:50:AM": [
+            "08:50 AM": [
                 "UTA018P",
                 "PL-4 LAB",
                 "OBJECT ORIENTED PROGRAMMING",
@@ -25093,13 +25093,13 @@
     },
     "2CO6": {
         "Monday": {
-            "9:40: AM": [
+            "9:40 AM": [
                 "UMA021L",
                 "LT101",
                 "UMA021",
                 "Lecture"
             ],
-            "10:30: AM": [
+            "10:30 AM": [
                 "UTA018L",
                 "LT101",
                 "OBJECT ORIENTED PROGRAMMING",
@@ -25117,7 +25117,7 @@
                 "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
             ],
-            "8:50:AM": [
+            "08:50 AM": [
                 "UTA018P",
                 "PL-5 LAB",
                 "OBJECT ORIENTED PROGRAMMING",

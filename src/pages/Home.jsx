@@ -10,14 +10,7 @@ function Home() {
   const [selectedOption, setSelectedOption] = useState(null);
   const navigate = useNavigate();
 
-  function extractKeys(obj) {
-    const keysArray = Object.keys(obj);
-    setKeys(keysArray);
-  }
   
-  useEffect(() => {
-    extractKeys(result);
-  }, []);
 
   const handleChange = (selected) => {
     setSelectedOption(selected);
@@ -75,7 +68,7 @@ function Home() {
             <div className="text">
             Subgroup: &emsp;
             <div className="input-box-container">
-              <InputBox options={keys} onChange={handleChange} />
+              <InputBox onChange={handleChange} />
             </div>
             
             </div>
