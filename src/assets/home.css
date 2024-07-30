@@ -238,11 +238,11 @@
         gap: 1rem;
     }
 
-    /* .contributers {
-        flex-direction: column;
-        gap: 2rem;
+    .contributers {
+        /* flex-direction: column; */
+        gap: 2.5rem;
         width:100%;
-    } */
+    }
 
     .contributer .photo  {
         height: 60px;
