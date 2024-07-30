@@ -113,6 +113,8 @@ table {
 }
 
 
+
+
 /* styles.css */
 
 .cell {
@@ -212,10 +214,11 @@ color: #111111;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 16px;
 	line-height: 27px;
 	text-align: center;
 	color: #111111;
+  width:60px;
 	
 	}
 .time
