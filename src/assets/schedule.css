@@ -290,3 +290,16 @@ margin-bottom: 30px;
 
 
 
+/* SchedulePage.css */
+
+.schedule-container {
+	width: 1200px;
+	margin: 0 auto; /* Center the container */
+  }
+  
+  @media (max-width: 1200px) {
+	.schedule-container {
+	  width: 100%; /* Ensure it doesn’t overflow on smaller screens */
+	}
+  }
+  

@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import '@/assets/home.css';
 import result from '@/assets/result.json';
 import InputBox from '../components/InputBox';
+import Contributer from '../components/Contributers';
+import GithubStats from '../components/GithubStats';
 
 function Home() {
   const [keys, setKeys] = useState([]);
@@ -89,74 +91,31 @@ function Home() {
             
           </form>
           <div className="github-stats">
-            <div className="stat">
-              <div className="issue-name">
-                <img src="src\assets\github-logo-white.png"/>
-                Stars
-              </div>
-              <div className="issue-stats">
-                  93
-              </div>
-            </div>
-            <div className="stat">
-              <div className="issue-name">
-              <img src="src\assets\github-logo-white.png"/>
-                Stars
-              </div>
-              <div className="issue-stats">
-                93
-              </div>
-            </div>
+            <GithubStats/>
           </div>
           <span className='contributers-heading'>Contributers</span>
           <div className="contributers">
             <div className="contributer">
-              <div className="photo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s"></img>
-              </div>
-              <div className="name">
-                Lorem Ipsum
-              </div>
-              <div className="socials">
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-              </div>
-            </div>
-            <div className="contributer">
-              <div className="photo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s"></img>
-              </div>
-              <div className="name">
-                Lorem Ipsum
-              </div>
-              <div className="socials">
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-              </div>
-            </div>
-            <div className="contributer">
-              <div className="photo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s"></img>
-              </div>
-              <div className="name">
-                Lorem Ipsum
-              </div>
-              <div className="socials">
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-              </div>
-            </div>
-            <div className="contributer">
-              <div className="photo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s"></img>
-              </div>
-              <div className="name">
-                Lorem Ipsum
-              </div>
-              <div className="socials">
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-                <img src="https://s3-alpha-sig.figma.com/img/7b01/1dcf/a8497e171b6d199b38c1d98a128570e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KozcHlwy6NJJzYdeal6D-SacxpL9F7Gh0tF0hO8IOa3y5~fsZMka6FVCHTULvdgI77U88CkfJiw2wPD0QWXLrZlBLdjUkR12H1sXQ5tCS2DD7vRAqdKoZxKAthUDjNIwbOyrhIrV6cXgmbO2KF2oMAWXqNh6~HLX9kDI90TIzuPjmqS0J4HUpF-TDEy2X7Y1V739J~Sdli3xJV51Kw5yZP~oMvspFHl3~-US663d4RVt27OTESLX-Sz4M5LOY4UM6bTlBwxi0HHZvrzCFmfQmdUJIrsVFJ02LD-PUvhcK~FayglAoLaezVF6uio4C6EuoUS4s1IgYIkgVnIu6uBJ~Q__" />
-              </div>
+              <Contributer
+                name="John Doe"
+                linkedinUrl="https://www.linkedin.com/in/johndoe"
+                githubUrl="https://github.com/johndoe"
+              />
+              <Contributer
+                name="Jane Smith"
+                linkedinUrl="https://www.linkedin.com/in/janesmith"
+                githubUrl="https://github.com/janesmith"
+              />
+              <Contributer
+                name="Alice Johnson"
+                linkedinUrl="https://www.linkedin.com/in/alicejohnson"
+                githubUrl="https://github.com/alicejohnson"
+              />
+              <Contributer
+                name="Bob Brown"
+                linkedinUrl="https://www.linkedin.com/in/bobbrown"
+                githubUrl="https://github.com/bobbrown"
+              /> 
             </div>
           </div>
           
