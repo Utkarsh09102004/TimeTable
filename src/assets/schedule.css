@@ -27,6 +27,19 @@ top: 88px;
 height:20px;
 }
 
+.schedule-container {
+    display: flex;
+	gap: 2rem;
+	justify-content: center;
+	padding-bottom: 0.5rem;
+     /* Adjust the spacing as needed */
+}
+
+.schedule-container .pict {
+    padding: 1;
+    margin: 0;
+}
+
 
 .schedule-input-2 {
   /* LT302 */
