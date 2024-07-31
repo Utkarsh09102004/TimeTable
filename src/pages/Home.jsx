@@ -138,7 +138,7 @@ function Home() {
               /> 
               <Contributer
                 img_url={armaanImage}
-                name="Armaan Jagirdaar"
+                name="Armaan Jagirdar"
                 linkedinUrl="https://www.linkedin.com/in/armaan-jagirdar-183b47285/"
                 githubUrl="https://github.com/Armaan457"
               /> 
