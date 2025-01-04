@@ -91,7 +91,7 @@ function Home() {
           </div>
           <form className="form-container" onSubmit={handleSubmit}>
             <div className="text">
-              Current Semester: &emsp;<span className='bold'>2024-2025 ODD</span>
+              Current Semester: &emsp;<span className='bold'>2024-2025 EVEN</span>
             </div>
             <div className="text">
             Subgroup: &emsp;
