@@ -49,7 +49,7 @@ function Home() {
       <div className="navbar">
         <div className="cont1">
           <img 
-            src="https://s3-alpha-sig.figma.com/img/436f/44bc/f1763620bc3484816ae325031d184550?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R4Sdwtz5GA8YGroQNi8pIPvEh2r-KLteZGqhazXqiT8l3l3iR8hJuskKQrAU5G1AXIAdwPFMFLikbbi-UDSnarV6FJhbO77p~iVhWjNpLZe6Xnl4rmvL2~LiwqeakjjDRRubdq1W3zrgZOSq-S0Dz0SsOXS~jkw7theh0nVyYn-TtWE~stYZn~pn~BRBgQh3VlpTKAU7KP~UEdgVjdqFk6a3zrTT0R~3-UmSJsJeQOwk72VAM0q2OxOWxK2jBDA6LJT5eoBgyjn5io1qfDApcl-V46jIBOGPojVzNsMeExx8glcKa7sJ~DQlBvrMjSLmtmJ11K-i2wXWe7LyWp2nvQ__" 
+            src="https://acm-thapar.github.io/img/logo.png" 
             alt="Logo" 
             className="logo" 
           />
@@ -99,7 +99,9 @@ function Home() {
               <InputBox onChange={handleChange} />
             </div>
             
+            
             </div>
+            <div className="note">*make sure you search for updated group names mentioned in webkiosk</div>
             <button className="submit-button" type="submit">Submit</button>
             
           </form>

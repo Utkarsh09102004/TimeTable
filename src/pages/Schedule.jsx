@@ -46,7 +46,7 @@ function Schedule() {
     <div>
       <nav className="acm-title">
         <div className="title-text">Time Table</div>
-        <img src="https://acm-thapar.github.io/img/logo.png" alt="Logo" width="600" height="300" />
+        <img src="https://acm-thapar.github.io/img/logo.png" alt="Logo"  />
       </nav>
       <div className="schedule-container">
         <button className="pict" onClick={downloadTableAsImage}>Download as PNG</button>
