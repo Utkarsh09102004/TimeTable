@@ -17886,57 +17886,57 @@
     "null": {
         "Monday": {
             "08:50 AM": [
-                "UPH011T",
-                "F301",
-                "PHYSICS WITH CALCULUS -II",
+                "UTA025T",
+                "T201",
+                "INNOVATION AND ENTREPRENEURSHIP",
                 "Tutorial"
             ],
             "09:40 AM": [
-                "UEC404P",
-                "CP IV(C326) LAB",
-                "SIGNALS & SYSTEMS",
-                "Practical"
+                "UMA033L",
+                "B304",
+                "NUMERICAL AND STATISTICAL METHODS",
+                "Lecture"
             ],
             "10:30 AM": [
-                "UEC404P",
-                "CP IV(C326) LAB",
-                "SIGNALS & SYSTEMS",
-                "Practical"
+                "UEC612L",
+                "B304",
+                "DIGITAL SYSTEM DESIGN",
+                "Lecture"
             ],
             "11:20 AM": [
-                "UMA401L",
-                "LT101",
-                "PROBABILITY AND STATISTICS",
+                "UEC513L",
+                "B304",
+                "EMBEDDED SYSTEMS",
                 "Lecture"
             ],
             "01:50 PM": [
-                "UES012P",
-                "LAB-1 LC-1",
-                "ENGINEERING MATERIALS",
-                "Practical"
+                "UTA018L",
+                "B208",
+                "OBJECT ORIENTED PROGRAMMING",
+                "Lecture"
             ],
             "02:40 PM": [
-                "UES012P",
-                "LAB-1 LC-1",
-                "ENGINEERING MATERIALS",
-                "Practical"
+                "UEC502L",
+                "B109",
+                "DIGITAL SIGNAL PROCESSING",
+                "Lecture"
             ],
             "03:30 PM": [
-                "UMA018L",
-                "F307",
-                "CALCULUS-III",
-                "Lecture"
+                "UEC404P",
+                "DSP LAB",
+                "SIGNALS & SYSTEMS",
+                "Practical"
             ],
             "04:20 PM": [
-                "UCS415L",
-                "LT102",
-                "DESIGN AND ANALYSIS OF ALGORITHMS",
-                "Lecture"
+                "UEC404P",
+                "DSP LAB",
+                "SIGNALS & SYSTEMS",
+                "Practical"
             ],
             "12:10 PM": [
-                "UCS411L",
-                "LT102",
-                "ARTIFICIAL INTELLIGENCE",
+                "UEC404L",
+                "B304",
+                "SIGNALS & SYSTEMS",
                 "Lecture"
             ],
             "08:00 AM": [
@@ -17948,15 +17948,15 @@
         },
         "Tuesday": {
             "08:50 AM": [
-                "UCS310L",
-                "LT102",
-                "DATABASE MANAGEMENT SYSTEM",
-                "Lecture"
+                "UMA033P",
+                "LAB NA-2",
+                "NUMERICAL AND STATISTICAL METHODS",
+                "Practical"
             ],
             "09:40 AM": [
-                "UCS415L",
-                "LT102",
-                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "UEC502L",
+                "B304",
+                "DIGITAL SIGNAL PROCESSING",
                 "Lecture"
             ],
             "10:30 AM": [
@@ -18003,16 +18003,16 @@
         },
         "Wednesday": {
             "08:50 AM": [
-                "UCS415P",
-                "PL-5 LAB",
-                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "UTA018P",
+                "PL-3 LAB",
+                "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
             ],
             "09:40 AM": [
-                "UTA024P",
-                "ED-2/PROJECT LAB",
-                "UTA024",
-                "Practical"
+                "UEC404L",
+                "B304",
+                "SIGNALS & SYSTEMS",
+                "Lecture"
             ],
             "10:30 AM": [
                 "UCS806L",
@@ -18040,36 +18040,36 @@
                 "Lecture"
             ],
             "02:40 PM": [
-                "UCS310L",
-                "LT102",
-                "DATABASE MANAGEMENT SYSTEM",
-                "Lecture"
+                "UTA024P",
+                "C/ED-1 LAB",
+                "UTA024",
+                "Practical"
             ],
             "01:50 PM": [
-                "UMA401L",
-                "LT102",
-                "PROBABILITY AND STATISTICS",
-                "Lecture"
+                "UTA024P",
+                "C/ED-1 LAB",
+                "UTA024",
+                "Practical"
             ],
             "08:00 AM": [
-                "UCS415P",
-                "PL-5 LAB",
-                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "UTA018P",
+                "PL-3 LAB",
+                "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
             ]
         },
         "Thursday": {
             "08:50 AM": [
-                "UCS411P",
-                "PG RE LAB",
-                "ARTIFICIAL INTELLIGENCE",
-                "Practical"
+                "UMA033L",
+                "B304",
+                "NUMERICAL AND STATISTICAL METHODS",
+                "Lecture"
             ],
             "09:40 AM": [
-                "UMA401P",
-                "LAB NA-2",
-                "PROBABILITY AND STATISTICS",
-                "Practical"
+                "UHU050L",
+                "LT101",
+                "UHU050",
+                "Lecture"
             ],
             "10:30 AM": [
                 "UME735L",
@@ -18104,35 +18104,35 @@
                 "Lecture"
             ],
             "08:00 AM": [
-                "UCS411P",
-                "PG RE LAB",
-                "ARTIFICIAL INTELLIGENCE",
+                "UTA018P",
+                "PL-3 LAB",
+                "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
             ],
             "03:30 PM": [
-                "UCS310L",
-                "LT101",
-                "DATABASE MANAGEMENT SYSTEM",
-                "Lecture"
+                "UEC513P",
+                "MCES LAB",
+                "EMBEDDED SYSTEMS",
+                "Practical"
             ],
             "04:20 PM": [
-                "UCS415L",
-                "LT101",
-                "DESIGN AND ANALYSIS OF ALGORITHMS",
-                "Lecture"
+                "UEC513P",
+                "MCES LAB",
+                "EMBEDDED SYSTEMS",
+                "Practical"
             ]
         },
         "Friday": {
             "08:50 AM": [
-                "UES011/020P",
-                "WRE LAB",
-                "THERMO-FLUIDS/020",
-                "Practical"
+                "UTA025L",
+                "LT402",
+                "INNOVATION AND ENTREPRENEURSHIP",
+                "Lecture"
             ],
             "09:40 AM": [
-                "UCS414L",
-                "F109",
-                "COMPUTER NETWORKS",
+                "UEC404L",
+                "B304",
+                "SIGNALS & SYSTEMS",
                 "Lecture"
             ],
             "10:30 AM": [
@@ -18141,9 +18141,9 @@
                 "Lecture"
             ],
             "08:00 AM": [
-                "UES011/020P",
+                "UE011P",
                 "WRE LAB",
-                "THERMO-FLUIDS/020",
+                "UE011",
                 "Practical"
             ],
             "11:20 AM": [
@@ -18159,28 +18159,28 @@
                 "Lecture"
             ],
             "02:40 PM": [
-                "UES020L",
+                "UES011L",
                 "F109",
                 "THERMO-FLUIDS",
                 "Lecture"
             ],
             "04:20 PM": [
-                "UTA024P",
-                "ED-2/PROJECT LAB",
-                "UTA024",
+                "UEC502P",
+                "CP-IV(C326) LAB",
+                "DIGITAL SIGNAL PROCESSING",
                 "Practical"
             ],
             "03:30 PM": [
-                "UES012L",
-                "LT103",
-                "ENGINEERING MATERIALS",
-                "Lecture"
+                "UEC502P",
+                "CP-IV(C326) LAB",
+                "DIGITAL SIGNAL PROCESSING",
+                "Practical"
             ],
             "12:10 PM": [
-                "UMA018L",
-                "F307",
-                "CALCULUS-III",
-                "Lecture"
+                "UNC401P",
+                "CP-2 LAB",
+                "DATA STRUCTURES AND ALGORITHMS",
+                "Practical"
             ]
         }
     },
@@ -38341,6 +38341,798 @@
                 "EDIA/C LAB",
                 "UTA024",
                 "Practical"
+            ]
+        }
+    },
+    "2UoQ": {
+        "Monday": {
+            "09:40 AM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UES012P",
+                "LAB-1 LC-1",
+                "ENGINEERING MATERIALS",
+                "Practical"
+            ],
+            "02:40 PM": [
+                "UES012P",
+                "LAB-1 LC-1",
+                "ENGINEERING MATERIALS",
+                "Practical"
+            ],
+            "03:30 PM": [
+                "UCS414L",
+                "F109",
+                "COMPUTER NETWORKS",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Tuesday": {
+            "08:50 AM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "09:40 AM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UES012L",
+                "LT103",
+                "ENGINEERING MATERIALS",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS414P",
+                "NS-1 LAB",
+                "COMPUTER NETWORKS",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS414P",
+                "NS-1 LAB",
+                "COMPUTER NETWORKS",
+                "Practical"
+            ]
+        },
+        "Wednesday": {
+            "08:00 AM": [
+                "UCS415P",
+                "PL-5 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UCS415P",
+                "PL-5 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "09:40 AM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UCS510L",
+                "F109",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT102",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ]
+        },
+        "Thursday": {
+            "08:00 AM": [
+                "UCS411P",
+                "ML LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UCS411P",
+                "ML LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "09:40 AM": [
+                "UMA401P",
+                "LAB FIST",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UMA401P",
+                "LAB FIST",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UCS510L",
+                "F309",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS411L",
+                "LT101",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS310L",
+                "LT101",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT101",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Friday": {
+            "09:40 AM": [
+                "UCS414L",
+                "F109",
+                "COMPUTER NETWORKS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UCS510L",
+                "F109",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "11:20 AM": [
+                "UTA024L",
+                "LT102",
+                "UTA024",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UES012L",
+                "LT103",
+                "ENGINEERING MATERIALS",
+                "Lecture"
+            ]
+        }
+    },
+    "2UNSW": {
+        "Monday": {
+            "09:40 AM": [
+                "UEC404P",
+                "CP IV(C326) LAB",
+                "SIGNALS & SYSTEMS",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UEC404P",
+                "CP IV(C326) LAB",
+                "SIGNALS & SYSTEMS",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UEC404L",
+                "B307",
+                "SIGNALS & SYSTEMS",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UCS318P",
+                "SE-1 LAB",
+                "SOFTWARE ENGINEERING",
+                "Practical"
+            ],
+            "02:40 PM": [
+                "UCS318P",
+                "SE-1 LAB",
+                "SOFTWARE ENGINEERING",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Tuesday": {
+            "08:50 AM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "09:40 AM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UEC404L",
+                "B307",
+                "SIGNALS & SYSTEMS",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UCS318L",
+                "F110",
+                "SOFTWARE ENGINEERING",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS415P",
+                "DS-1 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS415P",
+                "DS-1 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ]
+        },
+        "Wednesday": {
+            "08:00 AM": [
+                "UMA401P",
+                "LAB GC-1(CSED)",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UMA401P",
+                "LAB GC-1(CSED)",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "09:40 AM": [
+                "UEC513L",
+                "B305",
+                "EMBEDDED SYSTEMS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UEC404T",
+                "F109",
+                "SIGNALS & SYSTEMS",
+                "Tutorial"
+            ],
+            "12:10 PM": [
+                "UCS318L",
+                "F109",
+                "SOFTWARE ENGINEERING",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT102",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ]
+        },
+        "Thursday": {
+            "09:40 AM": [
+                "UEC513P",
+                "MCES LAB",
+                "EMBEDDED SYSTEMS",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UEC513P",
+                "MCES LAB",
+                "EMBEDDED SYSTEMS",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UEC513L",
+                "B305",
+                "EMBEDDED SYSTEMS",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UEC404L",
+                "B307",
+                "SIGNALS & SYSTEMS",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS318L",
+                "F112",
+                "SOFTWARE ENGINEERING",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS310L",
+                "LT101",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT101",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Friday": {
+            "11:20 AM": [
+                "UTA024L",
+                "LT102",
+                "UTA024",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UEC513L",
+                "B305",
+                "EMBEDDED SYSTEMS",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ]
+        }
+    },
+    "2UoT": {
+        "Friday": {
+            "03:30 PM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UPH011L",
+                "F301",
+                "PHYSICS WITH CALCULUS -II",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UCS510L",
+                "F109",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "11:20 AM": [
+                "UTA024L",
+                "LT102",
+                "UTA024",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UMA018L",
+                "F307",
+                "CALCULUS-III",
+                "Lecture"
+            ]
+        },
+        "Monday": {
+            "08:50 AM": [
+                "UPH011T",
+                "F301",
+                "PHYSICS WITH CALCULUS -II",
+                "Tutorial"
+            ],
+            "12:10 PM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UMA018L",
+                "F307",
+                "CALCULUS-III",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Tuesday": {
+            "08:50 AM": [
+                "UPH011L",
+                "F301",
+                "PHYSICS WITH CALCULUS -II",
+                "Lecture"
+            ],
+            "09:40 AM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS415P",
+                "DS-1 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS415P",
+                "DS-1 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ]
+        },
+        "Wednesday": {
+            "08:50 AM": [
+                "UPH011L",
+                "F301",
+                "PHYSICS WITH CALCULUS -II",
+                "Lecture"
+            ],
+            "11:20 AM": [
+                "UCS510L",
+                "F109",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UTA018L",
+                "F307",
+                "OBJECT ORIENTED PROGRAMMING",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UMA018T",
+                "F307",
+                "CALCULUS-III",
+                "Tutorial"
+            ]
+        },
+        "Thursday": {
+            "08:00 AM": [
+                "UCS411P",
+                "PG RE LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UCS411P",
+                "PG RE LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UCS510L",
+                "F309",
+                "COMPUTER ARCHITECTURE AND ORGANIZATION",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UTA018L",
+                "F307",
+                "OBJECT ORIENTED PROGRAMMING",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS411L",
+                "LT101",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT101",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        }
+    },
+    "2TCD": {
+        "Monday": {
+            "11:20 AM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "01:50 PM": [
+                "UES012P",
+                "LAB-1 LC-1",
+                "ENGINEERING MATERIALS",
+                "Practical"
+            ],
+            "02:40 PM": [
+                "UES012P",
+                "LAB-1 LC-1",
+                "ENGINEERING MATERIALS",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Tuesday": {
+            "08:50 AM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "09:40 AM": [
+                "UCS415L",
+                "LT102",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ],
+            "10:30 AM": [
+                "UCS411L",
+                "LT102",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "12:10 PM": [
+                "UES012L",
+                "LT103",
+                "ENGINEERING MATERIALS",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UES020L",
+                "F109",
+                "THERMO-FLUIDS",
+                "Lecture"
+            ]
+        },
+        "Wednesday": {
+            "08:00 AM": [
+                "UCS415P",
+                "PL-5 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UCS415P",
+                "PL-5 LAB",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Practical"
+            ],
+            "09:40 AM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UTA024P",
+                "ED-2/PROJECT LAB",
+                "UTA024",
+                "Practical"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT102",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS310L",
+                "LT102",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ],
+            "04:20 PM": [
+                "UCS310P",
+                "PL-5 LAB",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Practical"
+            ]
+        },
+        "Thursday": {
+            "08:00 AM": [
+                "UCS411P",
+                "PG RE LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UCS411P",
+                "PG RE LAB",
+                "ARTIFICIAL INTELLIGENCE",
+                "Practical"
+            ],
+            "09:40 AM": [
+                "UMA401P",
+                "LAB NA-2",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "10:30 AM": [
+                "UMA401P",
+                "LAB NA-2",
+                "PROBABILITY AND STATISTICS",
+                "Practical"
+            ],
+            "01:50 PM": [
+                "UMA401L",
+                "LT101",
+                "PROBABILITY AND STATISTICS",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UCS411L",
+                "LT101",
+                "ARTIFICIAL INTELLIGENCE",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UCS310L",
+                "LT101",
+                "DATABASE MANAGEMENT SYSTEM",
+                "Lecture"
+            ],
+            "04:20 PM": [
+                "UCS415L",
+                "LT101",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "Lecture"
+            ]
+        },
+        "Friday": {
+            "08:00 AM": [
+                "UES011/020P",
+                "WRE LAB",
+                "THERMO-FLUIDS/020",
+                "Practical"
+            ],
+            "08:50 AM": [
+                "UES011/020P",
+                "WRE LAB",
+                "THERMO-FLUIDS/020",
+                "Practical"
+            ],
+            "11:20 AM": [
+                "UTA024L",
+                "LT102",
+                "UTA024",
+                "Lecture"
+            ],
+            "02:40 PM": [
+                "UES020L",
+                "F109",
+                "THERMO-FLUIDS",
+                "Lecture"
+            ],
+            "03:30 PM": [
+                "UES012L",
+                "LT103",
+                "ENGINEERING MATERIALS",
+                "Lecture"
             ]
         }
     },
