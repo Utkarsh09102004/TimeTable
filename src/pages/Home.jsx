@@ -101,7 +101,7 @@ function Home() {
             
             
             </div>
-            <div className="note">*make sure you search for updated group names mentioned in webkiosk</div>
+            <div className="note">*make sure you search for updated group names mentioned in webkiosk in Subject Regtd. Details</div>
             <button className="submit-button" type="submit">Submit</button>
             
           </form>
