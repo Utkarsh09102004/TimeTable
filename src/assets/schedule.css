@@ -2,37 +2,37 @@
 
 /* Auto layout */
 .schedule-input-0 {
-  /* design for type of lecture */
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	/* padding: 5px 10px; */
-	gap: 10px;
-	border-radius: 5px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 10px;
-	line-height: 14px;
-	width: 53px;
-	color: #FFFFFF;
-	padding-block: 3px;
-	padding-inline: 5px;
-  position: absolute;
-  left: 12px;
-top: 88px;
-height:20px;
+    /* design for type of lecture */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* padding: 5px 10px; */
+    gap: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    width: 53px;
+    color: #FFFFFF;
+    padding-block: 3px;
+    padding-inline: 5px;
+    position: absolute;
+    left: 12px;
+    top: 88px;
+    height: 20px;
 }
 
 .schedule-container {
     display: flex;
-	gap: 2rem;
-	justify-content: center;
-	padding-bottom: 0.5rem;
-     /* Adjust the spacing as needed */
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    /* Adjust the spacing as needed */
 }
 
 .schedule-container .pict {
@@ -42,277 +42,272 @@ height:20px;
 
 
 .schedule-input-2 {
-  /* LT302 */
+    /* LT302 */
 
-/* position: absolute; */
-/* width: 46px; */
-width:100%;
-/* height: 22px; */
-left: 12px;
-top: 38px;
+    /* position: absolute; */
+    /* width: 46px; */
+    width: 100%;
+    /* height: 22px; */
+    left: 12px;
+    top: 38px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 22px;
-/* identical to box height */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
 
-color: #999999;
+    color: #999999;
 
 
 }
-
 
 
 .schedule-input-3 {
-  
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10px;
 
-background: #FF5E70;
-border-radius: 5px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-/* line-height: 14px ; */
-width: 57px;
-color: #FFFFFF;
-padding-block: 3px;
-padding-inline: 5px;
-position: absolute;
-left: 78px;
-top: 88px;
-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background: #FF5E70;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    /* line-height: 14px ; */
+    width: 57px;
+    color: #FFFFFF;
+    padding-block: 3px;
+    padding-inline: 5px;
+    position: absolute;
+    left: 78px;
+    top: 88px;
+    height: 20px;
 }
 
 .schedule-input-1 {
-  /* Numerical Linear Algebra */
-/* overflow-x:scroll; */
-/* position: absolute; */
-width: 100%;
-/* height: 22px; */
-left: 12px;
-top: 12px;
-max-height:50px;
+    /* Numerical Linear Algebra */
+    /* overflow-x:scroll; */
+    /* position: absolute; */
+    width: 100%;
+    /* height: 22px; */
+    left: 12px;
+    top: 12px;
+    max-height: 50px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-/* line-height: 22px; */
-/* identical to box height */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 22px; */
+    /* identical to box height */
 
-color: #15A6DD;
-
+    color: #15A6DD;
 
 
 }
 
 
 table {
-  width:100%;
-  
-  table-layout:fixed;
-  
-  border-collapse: seperate;
-  border-spacing:8px;
-  background-color:rgba(239, 239, 239, 0.3);
+    width: 100%;
+
+    table-layout: fixed;
+
+    border-collapse: seperate;
+    border-spacing: 8px;
+    background-color: rgba(239, 239, 239, 0.3);
 
 }
-
-
 
 
 /* styles.css */
 
 .cell {
-  width:15%;
-  /* height:80px; */
-  
-  
+    width: 15%;
+    /* height:80px; */
+
+
 }
 
 .cell-with-value {
-	width: 30px !important;
-	height: 120px;
+    width: 30px !important;
+    height: 120px;
 
-	background: #FFFFFF;
-	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
-  position:relative;
-  padding: 10px;
-  vertical-align: text-top;
- 
-  
-  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    vertical-align: text-top;
 
-  
-  
 
 }
 
 .edit {
-  border:none;
-  position:absolute;
-  top:5px;
-  right:5px;
-  background-color:transparent;
-  color:rgb(177, 177, 177);
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: rgb(177, 177, 177);
 }
 
 .cell-no-value {
-  /* border: solid 8px rgba(239, 239, 239, 1) ; */
-  background-color : rgba(239, 239, 239, 1);
-  position:relative;
-  vertical-align: text-top;
-  /* width: 30px !important; */
-	/* height: 120px; */
-  padding: 10px;
-  /* display:none; */
+    /* border: solid 8px rgba(239, 239, 239, 1) ; */
+    background-color: rgba(239, 239, 239, 1);
+    position: relative;
+    vertical-align: text-top;
+    /* width: 30px !important; */
+    /* height: 120px; */
+    padding: 10px;
+    /* display:none; */
 
 }
 
 .displaying {
-  display:none; 
-  background-color:yellow !important;
+    display: none;
+    background-color: yellow !important;
 }
 
 .schedule-input {
-	border: none;
-	outline: none;
-  resize: none;
-  overflow: hidden; 
-  white-space: pre-wrap;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    white-space: pre-wrap;
 
 }
+
 .pink {
-  background-color:pink;
+    background-color: pink;
 }
 
 .green {
-	background-color: #73D418;
-	/* Lecture */
+    background-color: #73D418;
+    /* Lecture */
 }
 
 .purple {
-	background-color: #9747FF;
-	/* Tutorial */
+    background-color: #9747FF;
+    /* Tutorial */
 }
 
 .yellow {
-	background-color: #FFBA4A;
-	/* Practical */
+    background-color: #FFBA4A;
+    /* Practical */
 }
 
 .days {
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
-text-align: left;
-color: #111111;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    color: #111111;
 
 
 }
 
 .time-specific {
 
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 27px;
-	text-align: center;
-	color: #111111;
-  width:60px;
-	
-	}
-.time
-{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #111111;
+    width: 60px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 15px;
-/* identical to box height */
+}
 
-color: #A9ACB0;
-;
+.time {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #A9ACB0;;
 
 
 }
 
-.pict
-{
+.pict {
 
-justify-content: center;
-align-items: center;
-padding: 15px;
-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 24px;
-color: #15A6DD;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #15A6DD;
+    transition: 0.2s;
 
-background: #FFFFFF;
-border: 2px solid #15A6DD;
-border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #15A6DD;
+    border-radius: 10px;
 
-margin:0 auto;
-display:block;
-margin-bottom: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
 
 }
 
-.acm-title
-{
-	display: flex;
-	justify-content: space-between; /* Distribute space between items */
-	align-items: center;
-	background-color: white; /* Set the background color to white */
-	padding: 1rem;
-	height: 200px
+.pict:hover {
+    background: #15A6DD;
+    color: #FFFFFF;
+    transition: 0.2s;
 }
+
+.acm-title {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    background-color: white; /* Set the background color to white */
+    padding: 1rem;
+    height: 200px
+}
+
 .acm-title img {
-	height: 160px;
-	/* width: 300px; */
+    height: 160px;
+    /* width: 300px; */
 }
-	
+
 .acm-title .title-text {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 48px;
-	line-height: 59px;
-	color: #111111;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #111111;
 }
 
 /* Timetable */
 
 
-
-
 /* SchedulePage.css */
 
 .schedule-container {
-	width: 1200px;
-	margin: 0 auto; /* Center the container */
-  }
-  
-  @media (max-width: 1200px) {
-	.schedule-container {
-	  width: 100%; /* Ensure it doesn’t overflow on smaller screens */
-	}
-  }
+    width: 1200px;
+    margin: 0 auto; /* Center the container */
+}
+
+@media (max-width: 1200px) {
+    .schedule-container {
+        width: 100%; /* Ensure it doesn’t overflow on smaller screens */
+    }
+}
   
