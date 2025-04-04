@@ -2,7 +2,7 @@ import {useRef, useState} from 'react';
 import html2canvas from 'html2canvas';
 import ScheduleTable from '@/components/ScheduleTable'; // Adjust the import path as needed
 import useScheduleData from '@/hooks/useScheduleData'; // Adjust the import path as needed
-
+import generateICalendar from '@/hooks/useGenerateICalendar';
 import '@/assets/index.css';
 import '@/assets/schedule.css';
 import useViewPortMetaTag from '@/hooks/useViewPortMetaTag'
