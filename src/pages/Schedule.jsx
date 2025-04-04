@@ -32,7 +32,7 @@ function Schedule() {
     };
 
 
-    const exportToGoogleCalendar = () => {
+    const exportToCalendar = () => {
         const icalContent = generateICalendar(scheduleData);
         const blob = new Blob([icalContent], { type: "text/calendar" });
         const url = URL.createObjectURL(blob);
@@ -65,7 +65,7 @@ function Schedule() {
             </nav>
             <div className="schedule-container">
                 <button className="pict" onClick={downloadTableAsImage}>Download as PNG</button>
-                <button className="pict" onClick={exportToGoogleCalendar}>Export to Google Calendar</button>
+                <button className="pict" onClick={exportToCalendar}>Export to Google Calendar</button>
                 <button className="pict" onClick={handleOpenPopup}>Show Tutorial</button>
             </div>
             <div>
