@@ -1,6 +1,6 @@
 import React from 'react';
 import Select from 'react-select';
-import data from '@/assets/OldNew.json';
+import data from '@/assets/subgroup.json';
 
 const InputBox = ({ onChange }) => {
   // Transform the options if they are strings

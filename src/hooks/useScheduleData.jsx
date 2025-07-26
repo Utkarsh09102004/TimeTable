@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import result from '@/assets/results(evenSem)[1].json';
+import result from '@/assets/resultsTIMETABLEJULYTODEC25';
 
 const useScheduleData = () => {
   const { sub } = useParams();
